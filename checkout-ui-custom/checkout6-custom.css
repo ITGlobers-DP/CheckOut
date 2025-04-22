@@ -1,0 +1,92 @@
+/* Content copied from "checkout5-custom.css" at 2019-03-01T05:12:59.334Z */
+
+/* /files/checkout5-custom.css */
+
+
+*{
+    font-family: "Lexend", sans-serif;
+}
+/* Displays the option to enter a foreign document */
+.document-box {
+    display: block;
+}
+
+/* Displays the option to enter an international phone */
+.phone-box {
+    display: block;
+}
+
+
+.box-client-info {
+    margin-bottom: 0;
+}
+
+.termsAndConditions {
+    display: flex;
+}
+
+#opt-in-termsAndConditions {
+    margin: 0 10px 0 0;
+
+}
+.opt-in-termsAndConditions--text-trigger{
+    text-decoration: underline;
+    color: #1a73e8;
+    font-weight: 600;
+cursor: pointer;
+
+}
+
+.contentTermsAndConditions-popUp {
+
+    display         : none;
+    background-color: rgba(17, 14, 17, 0.651);
+    position        : absolute;
+    height          : 100vh;
+    width           : 100vw;
+    z-index         : 10110;
+
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.contentTermsAndConditions-info{
+    background-color: #ffffff;
+    border-radius: 10px;
+
+    width: 70%;
+    height: 40%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.contentTermsAndConditions-info--title, .contentTermsAndConditions-info--paragraph{
+    color: #1D2734;
+}
+
+.contentTermsAndConditions-info--title{
+    text-align: center;
+}
+.contentTermAndConditions-options{
+    display: flex;
+    gap: 15px;
+
+}
+.contentTermAndConditions-info-label{
+    background-color: #1D2734;
+    color: #ffffff;
+    padding: 5px 20px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.contentTermAndConditions-info-close{
+    background-color: #1D2734;
+    color: #ffffff;
+    padding: 5px 20px;
+    font-size: 14px;
+    border-radius: 2px;
+}
